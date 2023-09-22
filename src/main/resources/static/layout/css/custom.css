@@ -1,0 +1,68 @@
+@import url(https://allfont.net/allfont.css?fonts=beyond-wonderland);
+.hidden{
+	visibility: hidden;
+	margin-top: -60px;
+}
+.img-thumb {
+  position: relative;
+  margin-left: 30%;
+  width: 50px;
+  height: 50px;
+  border-radius: 25px;
+}
+
+.img-thumb-big {
+  position: absolute;
+  width: 160px;
+  height: 160px;
+  margin-top: -30px;
+  margin-left: 70px;
+  border-radius: 0 8px 8px 8px;
+  box-shadow: 0px 0px 8px rgba(0, 0, 0, 1);
+
+  z-index: 100;
+}
+
+.img-thumb-big img {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+
+  width: 90%;
+  height: 90%;
+
+  object-fit: contain;
+}
+
+.btn-custom {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  white-space: nowrap;
+}
+
+.btn-custom i {
+  margin-right: 12px;
+}
+
+.brand-text {
+  font-family: "Beyond Wonderland";
+}
+.logofundo{
+	background-image: url("images/logo_municipio_preto.png");
+	background-size: 100%;   
+    background-repeat:no-repeat;    
+    width:300px;
+    height:300px;    
+    
+}
+
+.alturaFundo{
+	 padding-top: 10%;
+}
+.altura {    
+  margin-top: 30px; 
+  padding-top: 8px;
+}

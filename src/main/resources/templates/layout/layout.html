@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt" xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:th="http://www.thymeleaf.org"
+	xmlns:data="http://www.thymeleaf.org/extras/data"
+	xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<title>Nosso Espaço </title>
+<link rel="stylesheet" th:href="@{https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css}">
+<link rel="stylesheet" th:href="@{/site/bower_components/bootstrap/dist/css/bootstrap.min.css}">
+<link rel="stylesheet"th:href="@{/site/bower_components/ionicons/css/ionicons.min.css}">
+<link rel="stylesheet" th:href="@{/site/css_inscricao/agency.min.css}">
+<link rel="stylesheet" th:href="@{site/js/select2/css/select2.min.css}">
+<!-- <link rel="stylesheet" th:href="@{/site/js/bootstrap/css/select2-bootstrap4.min.css}"> -->
+<link rel="stylesheet" th:href="@{/site/js/sweetalert/sweetalert.css}">
+<link rel="stylesheet" th:href="@{/layout/css/toastr/toastr.min.css}">
+<link rel="stylesheet" th:href="@{/site/assets/css/main.css}">
+<link rel="stylesheet" th:href="@{/site/assets/css/navbar.css}">
+<link rel="stylesheet" th:href="@{/site/icons/css/all.css}">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+
+
+</head>
+
+<body class="hold-transition sidebar-mini">
+  <div class="wrapper">
+    <nav th:replace="~{layout/fragments/navbar :: navbar}"></nav>
+    <div class="content-wrapper">
+      <div layout:fragment="corpo"></div>
+    </div>
+<!--    <footer th:replace="~{layout/fragments/footer :: footer}"></footer>-->
+  </div>
+ </body>
+<script th:src="@{site/bower_components/bootstrap/dist/js/bootstrap.bundle.min.js}"></script>
+</html>
